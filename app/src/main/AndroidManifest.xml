@@ -13,15 +13,17 @@
         android:theme="@style/Theme.JetpackExample"
         android:usesCleartextTraffic="true">
         <activity android:name=".MainActivity">
+        </activity>
+        <activity android:name=".DataBindingActivity">
+        </activity>
+        <activity android:name=".LiveDataActivity"></activity>
+        <activity android:name=".Paging3Activity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".DataBindingActivity">
-        </activity>
-        <activity android:name=".LiveDataActivity"></activity>
     </application>
 
 </manifest>
