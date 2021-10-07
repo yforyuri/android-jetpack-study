@@ -1,4 +1,4 @@
-package com.example.paging3
+package kr.go.yforyuri.jetpackstudy
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -8,8 +8,8 @@ import androidx.paging.Pager
 import androidx.paging.PagingConfig
 import androidx.paging.cachedIn
 import androidx.paging.liveData
-import com.example.paging3.network.MovieInterface
-import com.example.paging3.util.PAGE_SIZE
+import kr.go.yforyuri.jetpackstudy.network.MovieInterface
+import kr.go.yforyuri.jetpackstudy.util.PAGE_SIZE
 
 class MovieViewModel: ViewModel() {
 

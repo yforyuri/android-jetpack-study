@@ -1,4 +1,4 @@
-package com.example.paging3.util
+package kr.go.yforyuri.jetpackstudy.util
 
 const val BASE_URL = "https://www.omdbapi.com/"
 const val API_KEY = "f022e057"

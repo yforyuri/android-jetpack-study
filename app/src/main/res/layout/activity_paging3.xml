@@ -6,7 +6,7 @@
     <data>
         <variable
             name="view"
-            type="com.example.paging3.network.Movie" />
+            type="kr.go.yforyuri.jetpackstudy.data.Movie" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

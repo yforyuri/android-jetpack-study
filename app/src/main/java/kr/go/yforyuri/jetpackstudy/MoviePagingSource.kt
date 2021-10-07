@@ -1,11 +1,12 @@
-package com.example.paging3
+package kr.go.yforyuri.jetpackstudy
 
 import androidx.paging.PagingSource
 import androidx.paging.PagingState
-import com.example.paging3.network.Movie
-import com.example.paging3.network.MovieInterface
-import com.example.paging3.util.PAGE_SIZE
-import com.example.paging3.util.START_PAGE_INDEX
+import kr.go.yforyuri.jetpackstudy.data.Movie
+import kr.go.yforyuri.jetpackstudy.network.MovieInterface
+import kr.go.yforyuri.jetpackstudy.util.PAGE_SIZE
+import kr.go.yforyuri.jetpackstudy.util.START_PAGE_INDEX
+
 import java.lang.Exception
 
 // paging source class : 페이징 데이터 소스를 정릐하기 위한 클래스 <page(key),data>()

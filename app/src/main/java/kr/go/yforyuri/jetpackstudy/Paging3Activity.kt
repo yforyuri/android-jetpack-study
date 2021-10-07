@@ -7,8 +7,6 @@ import androidx.appcompat.widget.SearchView
 import androidx.databinding.DataBindingUtil
 import androidx.paging.filter
 import androidx.recyclerview.widget.GridLayoutManager
-import com.example.paging3.MoviePageAdapter
-import com.example.paging3.MovieViewModel
 import kr.go.yforyuri.jetpackstudy.databinding.ActivityPaging3Binding
 
 class Paging3Activity : AppCompatActivity() {

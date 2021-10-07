@@ -1,8 +1,9 @@
-package com.example.paging3.network
+package kr.go.yforyuri.jetpackstudy.network
 
-import com.example.paging3.util.API_KEY
-import com.example.paging3.util.BASE_URL
 import com.google.gson.GsonBuilder
+import kr.go.yforyuri.jetpackstudy.data.MovieResponse
+import kr.go.yforyuri.jetpackstudy.util.API_KEY
+import kr.go.yforyuri.jetpackstudy.util.BASE_URL
 import okhttp3.Interceptor
 import okhttp3.OkHttpClient
 import retrofit2.Response

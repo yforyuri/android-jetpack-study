@@ -19,6 +19,6 @@ class ExampleInstrumentedTest {
     fun useAppContext() {
         // Context of the app under test.
         val appContext = InstrumentationRegistry.getInstrumentation().targetContext
-        assertEquals("kr.go.yforyuri.jetpackexample", appContext.packageName)
+        assertEquals("kr.go.yforyuri.jetpackstudy", appContext.packageName)
     }
 }

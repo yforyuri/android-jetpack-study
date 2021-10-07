@@ -1,11 +1,11 @@
-package com.example.paging3
+package kr.go.yforyuri.jetpackstudy
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.paging.PagingDataAdapter
 import androidx.recyclerview.widget.DiffUtil
 import androidx.recyclerview.widget.RecyclerView
-import com.example.paging3.network.Movie
+import kr.go.yforyuri.jetpackstudy.data.Movie
 import kr.go.yforyuri.jetpackstudy.databinding.ViewHolderMovieBinding
 
 // 사용자가 로드된 데이터의 끝까지 스크롤 할 때 리사이클러뷰 어댑터가 자동으로 데이토를 요청함
@@ -28,9 +28,7 @@ class MoviePageAdapter: PagingDataAdapter<Movie, MoviePageAdapter.MyViewHolder>(
     inner class MyViewHolder(val binding: ViewHolderMovieBinding) : RecyclerView.ViewHolder(binding.root) {
 
         fun setBind(item: Movie) {
-            with(binding) {
-                movie = item
-            }
+            binding.movie = item
         }
     }
 

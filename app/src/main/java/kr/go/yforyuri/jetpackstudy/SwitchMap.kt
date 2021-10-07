@@ -1,4 +1,4 @@
-package com.example.paging3
+package kr.go.yforyuri.jetpackstudy
 
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.map

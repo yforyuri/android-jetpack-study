@@ -7,7 +7,7 @@
 
         <variable
             name="movie"
-            type="com.example.paging3.network.Movie" />
+            type="kr.go.yforyuri.jetpackstudy.data.Movie" />
 
     </data>
 

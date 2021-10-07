@@ -1,5 +1,4 @@
-package com.example.paging3.network
-
+package kr.go.yforyuri.jetpackstudy.data
 
 import com.google.gson.annotations.SerializedName
 
